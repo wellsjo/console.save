@@ -1,7 +1,7 @@
 Save-JS-Console-Output
 ======================
 
-Add "console.save" to your console object.  console.save(<object>) will create a json file of the object you save, and immediately download it.  I find this useful for a number of things.
+Add console.save to your console object.  console.save(object, filename) will create a file of the object you save, and immediately download it to the filename you specify.  I find this useful for a number of things.
 
 Example:
 ```JavaScript
