@@ -6,7 +6,7 @@ Add "console.save" to your console object.  console.save(<object>) will create a
 Example:
 ```JavaScript
 var data = { 
-  hey: "ho",
+  hey: "yo",
   key: "value"
 };
 
