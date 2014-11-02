@@ -7,8 +7,9 @@ Example:
 ```JavaScript
 var data = { 
   hey: "ho",
-  key: "value
-}
+  key: "value"
+};
 
-console.save(data, 'whatever.json'); // this automatically downloads/formats the "data" object to "whatever.json"
+// this automatically downloads/formats the "data" object to "whatever.json"
+console.save(data, 'whatever.json'); 
 ```
