@@ -1,5 +1,4 @@
-Save-JS-Console-Output
-======================
+##Save JS console output to json file
 
 Add console.save to your console object.  console.save(object, filename) will create a file of the object you save, and immediately download it to the filename you specify.  I find this useful for a number of things.
 
