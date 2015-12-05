@@ -1,6 +1,8 @@
-##Save JS console output to JSON file
+# console.save
 
-Add console.save to your console object.  console.save(object, filename) will create a file of the object you save, and immediately download it to the filename you specify.  I find this useful for a number of things.
+Allows you to save json objects to disk from the browser console.
+
+The way it works is it creates a phantom link to download a `Blob` of the json data, then creates a mouse event to click that link.
 
 Example:
 ```JavaScript
