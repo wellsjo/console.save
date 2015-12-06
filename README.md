@@ -3,9 +3,11 @@
 Extends the console object and allows you to save JSON to the client from the browser.  The way it works is it creates a phantom download link to a `Blob` of the JSON object and spoofs the user clicking it.
 
 ## Code Example
+html
 ```html
 <script scr="cs.js"></script>
 ```
+js
 ```JavaScript
 var data = { 
   hey: "yo",
