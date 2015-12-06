@@ -2,7 +2,9 @@
 
 Extends the console object and allows you to save JSON to the client from the browser.  The way it works is it creates a phantom download link to a `Blob` of the JSON object and spoofs the user clicking it.
 
-The script (below) can be pasted in the browser or used programatically in code.
+```html
+<script scr="cs.js"></script>
+```
 
 ## Code Example
 ```JavaScript
@@ -14,6 +16,7 @@ var data = {
 console.save(data, 'whatever.json');  // downloads `data`
 ```
 ## Script
+You can paste this in the browser console as well.
 ```javascript
 (function(console) {
 
