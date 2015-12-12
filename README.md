@@ -15,8 +15,8 @@ var data = {
 console.save(data, 'data.json');
 ```
 data.json
-```javascript
+```json
 {
-  foo: "bar"
+  "foo": "bar"
 }
 ```
