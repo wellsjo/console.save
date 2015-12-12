@@ -6,6 +6,8 @@ The way it works is it creates a phantom download link to a `Blob` of the JSON o
 ## Example
 Console
 ```JavaScript
+// paste cs.js in here to gain access to console.save
+
 var data = { 
   foo: "bar"
 };
