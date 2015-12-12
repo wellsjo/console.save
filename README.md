@@ -9,7 +9,8 @@ Console
 // paste cs.js in here to gain access to console.save
 
 var data = { 
-  foo: "bar"
+  foo: "bar",
+  baz: "qux"
 };
 
 console.save(data, 'data.json');
@@ -17,6 +18,7 @@ console.save(data, 'data.json');
 data.json
 ```json
 {
-  "foo": "bar"
+  "foo": "bar",
+  "baz": "qux"
 }
 ```
