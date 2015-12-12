@@ -12,7 +12,7 @@ var data = {
 console.save(data, 'data.json');
 ```
 data.json
-```json
+```javascript
 {
   foo: "bar"
 }
